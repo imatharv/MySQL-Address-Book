@@ -25,3 +25,9 @@ VALUES (101,'Atharva','Joshi','Sagar park','Jalgaon','Maharashtra',425001,'96656
        (104,'Snehal','Kale','Sagar park','Jalgaon','Maharashtra',425001,'9564984532','snehal@email'),
        (105,'Nakul','Upadhyay','Inner ring road','Indore','Madhya Pradesh',425001,'123456789','nakul@email');
 SELECT * FROM address_book;
+
+#UC4
+UPDATE address_book
+SET Address = 'Racecourse area'
+WHERE Fname = 'Snehal';
+SELECT * FROM address_book;
