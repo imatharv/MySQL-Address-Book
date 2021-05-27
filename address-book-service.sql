@@ -31,3 +31,12 @@ UPDATE address_book
 SET Address = 'Racecourse area'
 WHERE Fname = 'Snehal';
 SELECT * FROM address_book;
+
+#UC5
+INSERT INTO address_book (Id, Fname, Lname, Address, City, State, Pin, Mobile, Email)
+VALUES (105,'Gaurav','Naik','Area','City','State',425001,'123456789','name@email');
+SELECT * FROM address_book;
+
+DELETE FROM address_book
+WHERE Fname = 'Gaurav';
+
