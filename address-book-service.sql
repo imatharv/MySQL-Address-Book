@@ -40,3 +40,8 @@ SELECT * FROM address_book;
 DELETE FROM address_book
 WHERE Fname = 'Gaurav';
 
+#UC6
+SELECT * FROM address_book WHERE City = 'Ahmadnagar';
+SELECT * FROM address_book WHERE State = 'Madhya Pradesh';
+
+
