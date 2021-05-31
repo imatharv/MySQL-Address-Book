@@ -67,3 +67,6 @@ UPDATE address_book SET address_book_type = 'Friends' WHERE address_book_name = 
 UPDATE address_book SET address_book_type = 'Work' WHERE address_book_name = 'AB2';
 UPDATE address_book SET address_book_type = 'Family' WHERE address_book_name = 'AB3';
 
+#UC10
+SELECT address_book_type,COUNT(*) FROM address_book WHERE address_book_type = 'Friends';
+
